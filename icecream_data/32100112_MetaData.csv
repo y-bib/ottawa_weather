@@ -1,0 +1,82 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Production of selected dairy products","32100112","003-0010","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210011201",4;6,"CURRENT - a cube available to the public and that is current","Monthly","1946-01-01","2024-12-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Commodity",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Maritime provinces","","2","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Other provinces","","12","1","",,
+"1","Prince Edward Island","[11]","3","2","t",,
+"1","Nova Scotia","[12]","4","2","",,
+"1","New Brunswick","[13]","5","2","t",,
+"1","Canada","[11124]","1","","",,
+"2","Hard ice cream","","4","3","",1,
+"2","Soft ice cream","","5","3","",1,
+"2","Cheddar cheese","","1","","",,
+"2","Speciality cheese","","2","","",,
+"2","Ice cream, total","","3","","",1,
+"2","Ice cream mix","","6","","",1,
+"2","Milkshake mix","","7","","",,
+"2","Sherbert","","8","","",,
+"2","Water ices","","9","","",,
+"2","Ice milk mix","","10","","",,
+"2","Hard frozen yogurt mix","","11","","",,
+"2","Soft frozen yogurt mix","","12","","",,
+"2","Cottage cheese","","13","","",2,
+"2","Yogurt","","14","","",5,
+"2","Pizza cheese","","15","","",3,
+"2","Mozzarella cheese","","16","","",,
+"2","Colby cheese","","17","","",,
+"2","Brick cheese","","18","","",,
+"2","Havarti cheese","","19","","",,
+"2","Provolone cheese","","20","","",,
+"2","Emmental and swiss cheese","","21","","",,
+"2","Cream cheese","","22","","",,
+"2","Feta cheese","","23","","",,
+"2","Gouda cheese","","24","","",,
+"2","Monterey jack cheese","","25","","",,
+"2","Parmesan cheese","","26","","",,
+"2","Ricotta cheese","","27","","",,
+"2","Farmer's, skim cheese","","28","","",,
+"2","Friulano and casata cheese","","29","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3430","Monthly Dairy Factory Production and Stocks Survey"
+
+"Subject Code","Subject Name"
+"32","Agriculture and food"
+
+"Note ID",Note
+1,"Prior to January 1988, data for Newfoundland and Labrador and Prince Edward Island were excluded from Canada totals to avoid disclosure of individual plant operations. Commencing January 1988, an increase in the number of respondents has allowed Canada totals to include both Newfoundland and Labrador and Prince Edward Island as "other provinces". New Brunswick is included in "other provinces" as of January 1989 and Nova Scotia as of July 1991."
+2,"Data include both creamed and uncreamed cottage cheese."
+3,"Pizza cheese also composed of partly-skimmed mozzarella."
+4,"Some data suppressions have been removed. There was no impact on the data."
+5,"Starting January 2012, volumes of fruit and/or additives are excluded."
+6,"Data for "Cheddar cheese" for Canada and Quebec were corrected for August 2011."
+
+"Correction ID","Correction Date","Correction Note"
